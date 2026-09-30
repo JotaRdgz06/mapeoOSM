@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<!-- nombre del boton -->
+	<layout name="Hidrante">
+
+		<!-- pantalla principal de botones -->
+		<page name="Inicio">
+			<!-- botón principal para marcar un hidrante -->
+			<button label="Hidrante (Pilar)"
+                    tag="emergency=fire_hydrant"
+                    icon="icons/HIDRANTE.png"
+                    target="AtributosHidrante" />
+		</page>
+
+		<!-- atributos del hidrante -->
+		<page name="AtributosHidrante">
+			<button label="Color Rojo" tag="colour=red" />
+			<button label="Color Amarillo" tag="colour=yellow" />
+			<button label="En Acera" tag="fire_hydrant:position=sidewalk" />
+			<button label="Subterráneo" tag="emergency=fire_hydrant;fire_hydrant:type=underground" />
+		</page>
+
+	</layout>
+</layouts>
