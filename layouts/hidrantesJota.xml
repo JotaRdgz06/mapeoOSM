@@ -7,7 +7,8 @@
 			<button type="textnote" icon="text_32x32"/>
 		</row>
 		<row>
-			<button type="tag" label="Hidrante" icon="icons/HIDRANTE.png"/>
+			<button type="tag" label="Hidrante" osm:tag="emergency=fire_hydrant" icon="icons/HIDRANTE.png"/>
+			<button type="tag" label="Casa" osm:tag="building=house" icon="icons/casa.png"/>
 		</row>
 		<row>
 		</row>
