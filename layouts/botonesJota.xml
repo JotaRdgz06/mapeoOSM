@@ -7,23 +7,23 @@
 			<button type="textnote" icon="text_32x32"/>
 		</row>
 		<row>
-			<button type="tag" label="Hidrante" osm:tag="emergency=fire_hydrant" oms:tag="fire_hydrant:type=pillar" icon="icons/HIDRANTE.png"/>
-			<button type="tag" label="Acera" osm:tag="building=house" icon="icons/acera.jpg"/>
-			<button type="tag" label="Cancha de futbol" osm:tag="building=house" icon="icons/cancha.png"/>
+			<button type="tag" label="Hidrante" osm:tag="emergency=fire_hydrant; fire_hydrant:type=pillar" oms:tag="fire_hydrant:type=pillar" icon="icons/HIDRANTE.png"/>
+			<button type="tag" label="Acera" osm:tag="highway=footway; footway=sidewalk" icon="icons/acera.jpg"/>
+			<button type="tag" label="Cancha de futbol" osm:tag="leisure=pitch; sport=futsal" icon="icons/cancha.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Reductor velocidad" osm:tag="building=house" icon="icons/muerto.png"/>
-			<button type="tag" label="Parada bus" osm:tag="building=house" icon="icons/parada.png"/>
-			<button type="tag" label="Parque" osm:tag="building=house" icon="icons/parque.jpg"/>
+			<button type="tag" label="Reductor velocidad" osm:tag="traffic_calming=bump" icon="icons/muerto.png"/>
+			<button type="tag" label="Parada bus" osm:tag="highway=bus_stop" icon="icons/parada.png"/>
+			<button type="tag" label="Parque" osm:tag="leisure=park" icon="icons/parque.jpg"/>
 		</row>
 		<row>
-			<button type="tag" label="Paso peatonal" osm:tag="building=house" icon="icons/pasopeaton.jpg"/>
-			<button type="tag" label="Recorrido bus" osm:tag="building=house" icon="icons/recorrido.jpg"/>
-			<button type="tag" label="Semaforo" osm:tag="building=house" icon="icons/semaforo.png"/>
+			<button type="tag" label="Paso peatonal" osm:tag="highway=crossing; crossing=zebra" icon="icons/pasopeaton.jpg"/>
+			<button type="tag" label="Recorrido bus" osm:tag="route=bus; type=route" icon="icons/recorrido.jpg"/>
+			<button type="tag" label="Semaforo" osm:tag="highway=traffic_signals" icon="icons/semaforo.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Señal de tránsito" osm:tag="building=house" icon="icons/señal.jpg"/>
-			<button type="tag" label="Tienda" osm:tag="building=house" icon="icons/tienda.png"/>
+			<button type="tag" label="Señal de tránsito" osm:tag="traffic_sign=*" icon="icons/señal.jpg"/>
+			<button type="tag" label="Tienda" osm:tag="shop=convenience" icon="icons/tienda.png"/>
 		</row>
 	</layout>
 </layouts>
