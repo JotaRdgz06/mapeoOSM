@@ -7,10 +7,23 @@
 			<button type="textnote" icon="text_32x32"/>
 		</row>
 		<row>
-			<button type="tag" label="Hidrante" osm:tag="emergency=fire_hydrant" icon="icons/HIDRANTE.png"/>
-			<button type="tag" label="Casa" osm:tag="building=house" icon="icons/casa.png"/>
+			<button type="tag" label="Hidrante" osm:tag="emergency=fire_hydrant" oms:tag="fire_hydrant:type=pillar" icon="icons/HIDRANTE.png"/>
+			<button type="tag" label="Acera" osm:tag="building=house" icon="icons/acera.jpg"/>
+			<button type="tag" label="Cancha de futbol" osm:tag="building=house" icon="icons/cancha.png"/>
 		</row>
 		<row>
+			<button type="tag" label="Reductor velocidad" osm:tag="building=house" icon="icons/muerto.png"/>
+			<button type="tag" label="Parada bus" osm:tag="building=house" icon="icons/parada.png"/>
+			<button type="tag" label="Parque" osm:tag="building=house" icon="icons/parque.jpg"/>
+		</row>
+		<row>
+			<button type="tag" label="Paso peatonal" osm:tag="building=house" icon="icons/pasopeaton.jpg"/>
+			<button type="tag" label="Recorrido bus" osm:tag="building=house" icon="icons/recorrido.jpg"/>
+			<button type="tag" label="Semaforo" osm:tag="building=house" icon="icons/semaforo.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Señal de tránsito" osm:tag="building=house" icon="icons/señal.jpg"/>
+			<button type="tag" label="Tienda" osm:tag="building=house" icon="icons/tienda.png"/>
 		</row>
 	</layout>
 </layouts>
