@@ -22,7 +22,7 @@
 			<button type="tag" label="Semaforo" osm:tag="highway=traffic_signals" icon="icons/semaforo.png"/>
 		</row>
 		<row>
-			<button type="tag" label="Señal de tránsito" osm:tag="traffic_sign=*" icon="icons/señal.jpg"/>
+			<button type="tag" label="Señal de alto" osm:tag="traffic_sign=*" icon="icons/señal.jpg"/>
 			<button type="tag" label="Tienda" osm:tag="shop=convenience" icon="icons/tienda.png"/>
 		</row>
 	</layout>
